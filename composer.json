@@ -1,0 +1,41 @@
+{
+  "name": "gepur-it/tiny_int_type",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrii Yakovlev",
+      "email": "yawa20@gmail.com"
+    },
+    {
+      "name": "Marina Mileva",
+      "email": "m934222258@gmail.com"
+    },
+    {
+      "name": "Viktor Pavlov",
+      "email": "zogxray@gmail.com"
+    }
+  ],
+  "description": "Gepur ERP Tinyint doctrine type",
+  "keywords": [
+      "tinyint",
+      "doctrine",
+      "symfony",
+      "type"
+  ],
+  "homepage": "https://github.com/gepur-it/tiny_int_type",
+  "require": {
+    "php": "^7.1",
+    "doctrine/dbal": ">=2.5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "GepurIt\\TinyintType\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "": "Tests"
+    }
+  }
+}
