@@ -2,6 +2,7 @@
   "name": "gepur-it/tiny_int_type",
   "type": "library",
   "license": "MIT",
+  "version": "4.3.0",
   "authors": [
     {
       "name": "Andrii Yakovlev",
@@ -25,7 +26,7 @@
   ],
   "homepage": "https://github.com/gepur-it/tiny_int_type",
   "require": {
-    "php": "^7.1",
+    "php": "^7.3",
     "doctrine/dbal": ">=2.5.4"
   },
   "autoload": {
